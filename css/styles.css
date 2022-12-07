@@ -63,9 +63,18 @@ h3 {
   font-size: 1.5rem;
   line-height: 1.5;
   font-weight: bold;
+  margin: 5% 0;
+}
+p{
+    color: #8f8f8f;
 }
 
 .fa-solid{
     color: #cf8172;
    
+}
+
+.container{
+    text-align: center;
+    padding: 5% 0;
 }
