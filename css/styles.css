@@ -58,6 +58,15 @@ h1 {
 
 /* Features */
 
+.container {
+  text-align: center;
+  padding: 5% 0;
+}
+
+.features-box {
+  padding: 0 5%;
+}
+
 h3 {
   font-family: "Montserrat";
   font-size: 1.5rem;
@@ -65,16 +74,16 @@ h3 {
   font-weight: bold;
   margin: 5% 0;
 }
-p{
-    color: #8f8f8f;
+
+p {
+  color: #8f8f8f;
 }
 
-.fa-solid{
-    color: #cf8172;
-   
+.icon {
+  margin-top: 10%;
+  color: #cf8172;
 }
 
-.container{
-    text-align: center;
-    padding: 5% 0;
+.icon:hover {
+  color: #ff4c68;
 }
