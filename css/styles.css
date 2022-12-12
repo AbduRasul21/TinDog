@@ -4,10 +4,11 @@ body {
 #title {
   background-color: #ff4c68;
   color: #ffffff;
+  position: relative;
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 h1 {
@@ -22,6 +23,14 @@ h2 {
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 700;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  /* margin: 5% 0; */
 }
 
 /* Navigation bar */
@@ -57,30 +66,30 @@ h2 {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
-  -webkit-transform: rotate(25deg);
-  -moz-transform: rotate(25deg);
-  -ms-transform: rotate(25deg);
-  -o-transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 /* Features */
 
+#features{
+  position: relative;
+  /* z-index: 1; */
+  background-color: #ffffff;
+}
+
+
 .container {
   text-align: center;
-  padding: 5% 10%;
+  padding: 5% 0%;
 }
 
 .features-box {
   padding: 0 5%;
+  background-color: #ffffff;
 }
 
-h3 {
-  font-family: "Montserrat";
-  font-size: 1.5rem;
-  line-height: 1.5;
-  font-weight: bold;
-  margin: 5% 0;
-}
+
 
 p {
   color: #8f8f8f;
@@ -88,6 +97,7 @@ p {
 
 .icon {
   margin-top: 10%;
+  margin-bottom: 7%;
   color: #cf8172;
 }
 
@@ -129,4 +139,30 @@ p {
 
 .testimonial-text{
   width: 100%;
+}
+
+/* Pricing  */
+
+#pricing{
+text-align: center;
+padding: 100px;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+}
 }
