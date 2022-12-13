@@ -98,7 +98,6 @@ p {
 #features {
   position: relative;
   /* z-index: 1; */
-  
 }
 
 .feature-title {
@@ -159,7 +158,7 @@ p {
   width: 100%;
 }
 
-/* Pricing  */
+/* Pricing section */
 
 #pricing {
   padding: 100px;
@@ -177,13 +176,6 @@ p {
 .pricing-text {
   font-size: 3.5rem;
   font-weight: 700;
-}
-
-/*CTA section*/
-
-#cta {
-  background-color: #ff4c68;
-  color: #ffffff;
 }
 
 /* footer section */
