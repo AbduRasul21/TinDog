@@ -28,9 +28,7 @@ p {
   font-weight: 700;
 }
 
-
 /* Containers  */
-
 
 .container-fluid {
   padding: 7% 15%;
@@ -39,18 +37,17 @@ p {
 /* Sections  */
 
 .colored-section {
-
+  background-color: #ff4c68;
+  color: #ffffff;
 }
 
-.white-section{
-
+.white-section {
+  background-color: #ffffff;
 }
 
 /* Title section  */
 
 #title {
-  background-color: #ff4c68;
-  color: #ffffff;
   position: relative;
   text-align: left;
 }
@@ -101,7 +98,7 @@ p {
 #features {
   position: relative;
   /* z-index: 1; */
-  background-color: #ffffff;
+  
 }
 
 .feature-title {
